@@ -1,3 +1,4 @@
+/* Global Styles */
 * {
   box-sizing: border-box;
 }
@@ -23,6 +24,7 @@ article {
   gap: 3.75rem;
 }
 
+/* Title and Card Styles */
 .title-wrapper,
 .card-wrapper {
   max-width: 19.75rem;
@@ -30,6 +32,7 @@ article {
   height: auto;
 }
 
+/* Title Styles */
 .title-wrapper {
   text-align: center;
   display: flex;
@@ -69,6 +72,7 @@ h2 {
   letter-spacing: 0.1px;
 }
 
+/* Card Styles */
 .card-wrapper {
   display: flex;
   flex-direction: column;
@@ -85,19 +89,19 @@ h2 {
   gap: 2rem;
 }
 
-.border1 {
+.card1 {
   border-top: 5px solid #44d3d2;
 }
 
-.border2 {
+.card2 {
   border-top: 5px solid #ea5454;
 }
 
-.border3 {
+.card3 {
   border-top: 5px solid #fcae4a;
 }
 
-.border4 {
+.card4 {
   border-top: 5px solid #549ef2;
 }
 
@@ -124,6 +128,8 @@ img {
   margin-right: 0;
 }
 
+/* Attribution Styles */
+
 /* .attribution {
   font-size: 11px;
   text-align: center;
@@ -132,6 +138,7 @@ img {
   color: hsl(228, 45%, 44%);
 } */
 
+/* Tablet Styles */
 @media only screen and (min-width: 768px) {
   main {
     max-width: 50rem;
@@ -148,16 +155,13 @@ img {
     max-width: 33.75rem;
   }
 
-  .card-wrapper {
-    max-width: 41.25rem;
-  }
-
   h1,
   h2 {
     font-size: 2.25rem;
   }
 
   .card-wrapper {
+    max-width: 41.25rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -190,6 +194,7 @@ img {
   }
 }
 
+/* Desktop Styles */
 @media only screen and (min-width: 1440px) {
   main {
     max-width: 69.625rem;
